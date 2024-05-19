@@ -1,9 +1,9 @@
 let noBtn = document.querySelector('.no-btn');
 let yesBtn = document.querySelector('.yes-btn');
-let noTexts = ['No', 'Are u sure?', 'Really sure?'];
+let noTexts = ['Are u sure?', 'Really sure?', 'Are you positive??', 'Yes please :(', 'Just think again', 'If No, i"ll sad', 'Very very sad', 'Very very very sad', 'Very very very very sad', 'Fine, will stop asking', 'Just kidding', 'Just click yes please', 'U breaking my heart', 'No'];
 let noIndex = 0;
-let currentWidth = 0; // add a variable to track the current width
-let currentHeight = 0; // add a variable to track the current height
+let currentWidth = 160; // add a variable to track the current width
+let currentHeight = 60; // add a variable to track the current height
 
 noBtn.addEventListener('click', () => {
   currentWidth += 50; // increase the width by 50px each click
