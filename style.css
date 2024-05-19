@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  img{
+    width: 250px;
+  }
+
+  span{
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .container, .container-2 {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 150px;
+    /* width: 200px; */
+  }
+
+  .container-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .yes-btn,.no-btn {
+    min-width: 140px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .yes-btn {
+    /* width: 90px; */
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .no-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .yes-btn:hover,.no-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .yes-btn.big {
+    font-size: 36px;
+    width: 120px;
+    height: 60px;
+  }
